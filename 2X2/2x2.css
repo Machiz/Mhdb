@@ -1,0 +1,40 @@
+.header {
+  padding: 8px;
+  background-color:	#32cd32 ;
+  color: white;
+  font-size: 30px;
+}
+h1{
+  bottom: 920;
+  right: 1590;
+}
+h1, p1, p2{
+  position: absolute;
+  width: 300px;
+}
+p1, p2{
+  bottom: 530;
+}
+p1{
+  right: 1200;
+}
+p2{
+  right: 970;
+}
+img{
+  max-width: 200px;
+  height: 200px;
+}
+.head{
+  max-width: 100px;
+  height: 100px;
+}
+body{
+  background-color: #fff;
+}
+footer {
+  position:absolute;
+  bottom: 90px;
+  width:100%;
+  height:60px;   /* Height of the footer */
+}
