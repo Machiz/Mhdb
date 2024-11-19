@@ -1,10 +1,11 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mhdb</title>
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS61zn78IZmZasuT59bpGoEV1l1VHaGurZ7uQW0eixi3qiH_EkUStxq9pI-rGSc36P_jhLXA0bTl8aDlmjuy_ONRv-kXQ=s1600">
-    <link rel="stylesheet" href="styles db.css">
+    <link rel="stylesheet" href="{% static '/css/styles.css' %}" />
 </head>
 
 <body>
@@ -15,7 +16,7 @@
         </div>
         <div class="logo" margin = "10px">
             <a href="mhdb.html">
-                <img  src="https://lh3.googleusercontent.com/drive-viewer/AEYmBYQsjz-QWrHtUYsBrtk5yxZ404xd_8frFahifPYmEHsK55iwRYshYKdGn79dWrow0m62vklT7TCILuHT3OLRqZYIc-qCbg=s1600" alt="mhdb" class="head"/>
+                <img src="{% static 'images/LOGOS/mh pag_Mesa de trabajo 1.png' %}" alt="Imagen de ejemplo" id="logo">
             </a>
         </div>
         <div class="navbar">
