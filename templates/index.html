@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mhdb</title>
-    <link rel="shortcut icon" href="https://lh3.googleusercontent.com/drive-viewer/AEYmBYS61zn78IZmZasuT59bpGoEV1l1VHaGurZ7uQW0eixi3qiH_EkUStxq9pI-rGSc36P_jhLXA0bTl8aDlmjuy_ONRv-kXQ=s1600">
+    <link rel="shortcut icon" href="{% static 'images/LOGOS/mh pag bsl_Mesa de trabajo 1.png'%}">
     <link rel="stylesheet" href="{% static '/css/styles.css' %}" />
 </head>
 
@@ -15,7 +15,7 @@
             <a href=""></a>
         </div>
         <div class="logo" margin = "10px">
-            <a href="mhdb.html">
+            <a href="{% url 'index' %}" aria-label="Volver a la pagina principal">
                 <img src="{% static 'images/LOGOS/mh pag_Mesa de trabajo 1.png' %}" alt="Imagen de ejemplo" id="logo">
             </a>
         </div>
@@ -78,7 +78,7 @@
     <p4>
         <a href="Pyraminx/Pyraminx.html">
             <button type="button" class="btn-pyra">
-                <img src="http://drive.google.com/uc?export=view&id=11CyjewVsL9kPC9IXVIhSymw8qiJINH6X2" alt= "pyra" />
+                <img src="{% static 'images/pyraminx/My project (1).png'%}" alt= "pyra" />
                 <h2><b>Pyraminx</b></h2>
             </button>
         </a>

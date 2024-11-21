@@ -20,5 +20,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.main_view),  # Ruta principal para mostrar la página de inicio
+    path('', views.main_view, name = 'index'),  # Ruta principal para mostrar la página de inicio
 ]
