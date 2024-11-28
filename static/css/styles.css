@@ -193,3 +193,8 @@ nav {
     margin-top: -40px;
     margin-left: -15px;
 }
+footer
+{
+    position: absolute;
+    top: 1000px;
+}
