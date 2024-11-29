@@ -12,7 +12,8 @@ header {
 .navbar{
     font-size: 50px;
     overflow: hidden;
-    margin-left: 150px;
+    margin-left: 120px;
+    margin-top: 30px;
     width: 20%;
 }
 .navbar a {
@@ -61,36 +62,36 @@ h1, p1, p2, p3, p4, p5, p6, p7{
     width: 300px;
 }
 p1, p2, p3, p4{
-    position: relative;
-    top: 500px;
+    position: absolute;
+    top:40%;
 }
 p5, p6, p7{
     position: absolute;
-    top: 10px;
+    top: 80%;
 }
 p1{
-    left: 10%;
+    left: 20%;
 }
 p2{
-    left: 20%;
+    left: 30%;
 }
 p3{
-    left: 30%;
+    left: 40%;
 }
 p4{
-    left: 40%;
+    left: 50%;
 }
 p5{
-    left: 0;
+    left: 25%;
 }
 p6{
-    left: 20%;
+    left: 35%;
 }
 p7{
-    left: 30%;
+    left: 45%;
 }
 p8{
-    left: 40%;
+    left: 55%;
 }
 h2{
     font-family: arial;
@@ -103,8 +104,9 @@ img{
 }
 footer {
     position:relative;
-    width: 90%;
+    width: 100%;
     height:150px;   /* Height of the footer */
+    top: 1000px;
 }
 body{
     background-color: white;
@@ -192,9 +194,4 @@ nav {
     height: 150px;
     margin-top: -40px;
     margin-left: -15px;
-}
-footer
-{
-    position: absolute;
-    top: 1000px;
 }
